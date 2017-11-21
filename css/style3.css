@@ -1,0 +1,344 @@
+
+
+@media screen and (min-width : 750px) {
+#content{float:left;width:60%;}
+#sidebar{float:right;width:35%}
+} 
+ 
+@media screen and (min-width : 481px) and (max-width : 749px) {
+#content{width:95%;}
+#sidebar{width:95%;}    
+}
+img {
+    max-width: 100%;
+}
+iframe, object, embed{
+width: 100%;
+}
+.p_header{
+	height:955px;
+	float:left;
+	color:white;
+	border-radius:6px 6px 6px 6px;
+}
+
+#profile{
+	text-align:center;
+	height:5px;
+	background-color:lightblue;
+	border-radius:10px 10px 10px 10px;
+	color:black;
+}
+
+.header_main{
+	float:left;
+	height:955px;
+	border:2px solid black;
+}
+.header_1{
+	
+	height:100%;
+	
+}
+/*myprofile*/
+.header{
+	display:block;
+	width:400px;
+	height:400px;
+	border:2px solid black; 
+	border-radius:6px 6px 6px 6px;
+	background:white;
+	}
+/* navgation header*/
+#head{
+	background-color:;
+	width:100%;
+	border-bottom:3px solid black;
+	
+}
+.nav_right a :hover{
+	background-color:gray;
+}
+/* cms header header navbar*/
+#cms_header{
+	width:200px;
+	color:black;
+	text-align:center;
+	display:block;
+	border-top:5px solid black; 
+	border-right:2px solid black;
+    border-left:2px solid silver;	
+}
+.cms_list_head,.ac_list_head{
+	border:1px solid black;	
+}
+.cms_list_head li,.ac_list_head li{
+	border-bottom:1px solid lightgray;
+}
+#cms_header:hover{
+	background-color:lightblue;
+}
+.dropdown-submenu{
+	position:relative;
+	}
+	.ac_list_head{
+		width:200px;
+	}
+.dropdown-submenu>.dropdown-menu{
+	top:0;
+	left:100%;
+	margin-top:-6px;
+	margin-left:-1px;
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	
+	}
+.dropdown-submenu>a:after{
+	display:block;
+	content:" ";
+	float:right;
+	width:0;
+	height:0;
+	border:1px solid black;
+	border-color:transparent;
+	border-style:solid;
+	border-width:5px 0 5px 5px;
+	border-left-color:#cccccc;
+	margin-top:5px;
+	margin-right:-10px;
+	}
+.dropdown-submenu:hover>a:after{
+	border-left-color:#555;
+	}
+.dropdown-submenu.pull-left{
+	float:none;
+	}
+	.dropdown-submenu.pull-left>.dropdown-menu{
+		left:-100%;
+		margin-left:10px;
+		-webkit-border-radius:6px 0 6px 6px;
+		-moz-border-radius:6px 0 6px 6px;
+		border-radius:6px 0 6px 6px;
+		}
+
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+	position:relative;
+}
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+
+/*Style for dropdown links*/
+
+/*Hover state for dropdown links*/
+
+li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+.dropdown:hover .cms_list_head{
+	display:block;
+}
+.cms_list_head1:hover .cms_list1{
+	display:block;
+}
+.cms_list_head2:hover .cms_list2{
+	display:block;
+}
+.cms_list_head3:hover .cms_list3{
+	display:block;
+}
+.cms_list_head4:hover .cms_list4{
+	display:block;
+}
+.dropdown:hover .ac_list_head{
+	display:block;
+}
+
+/*home page home and logout button*/
+#home {
+	padding:14px;
+	margin-right:5px;
+}
+#home:hover{
+	background-color:gray;
+}
+.nav_right{
+	margin-top:15px;
+}
+.nav_right a{
+     font-size:18px;
+	margin-right:25px;
+	text-decoration:none;
+}
+.tips{
+	height:190px;
+	width:190px;
+	border:3px solid gray;
+	background-color:;
+	border-radius:10px 10px 10px 10px;
+	
+}
+#h_tips{
+	
+	background-color:lightblue;
+	height:50px;
+	text-align:center;
+	font-size:20px;
+	border-radius:10px 10px 10px 10px;
+	
+	
+}
+
+.news{
+	margin-top:45px;
+	width:320px;
+	height:290px;
+	border:3px solid gray;
+	float:right;
+	border-radius:10px 10px 10px 10px;
+	background-color:white;
+	margin-right:5px;
+}
+#h_news{
+	height:50px;
+	text-align:center;
+	font-size:20px;
+	background-color:lightblue;
+	border-radius:10px 10px 10px 10px;
+}
+
+
+.timetable{
+	width:400px;
+	height:290px;
+	border:3px solid gray;
+	float:left;
+	background-color:white;
+	border-radius:10px 10px 10px 10px;
+	margin-left:5px;
+	
+}
+#htt{
+	border-radius:10px 10px 10px 10px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+#h_tt tr th{
+	background-color:lightblue;
+	height:50px;
+	text-align:center;
+	font-size:20px;
+}
+
+#h_tt tr td{
+	height:35px;
+	text-align:center;
+	font-size:15px;
+	color:black;
+}
+#h_tt tbody tr:hover{
+	background-color:gray;
+}
+.atten{
+	width:440px;
+	height:300px;
+	border:3px solid gray;
+	float:left;
+	background-color:white;
+	border-radius:13px 13px 13px 13px;
+	margin-left:5px;
+	
+}
+.message-box{
+	
+	width:320px;
+	height:300px;
+	border:3px solid gray;
+	float:right;
+	background-color:white;
+	border-radius:13px 13px 13px 13px;
+    margin-right:5px;
+	
+}
+#h_msg{
+	border-radius:13px 13px 13px 13px;
+	height:50px;
+	text-align:center;
+	font-size:20px;
+	background-color:lightblue;
+	border-radius:13px 13px 13px 13px;
+}
+/*announcement style*/
+.announcement{
+	background-color:white;	
+	border-radius:13px 13px 13px 13px;
+}
+.announcement{
+	background-color:white;	
+	border-radius:13px 13px 13px 13px;
+}
+.announcement tr:hover{
+	background-color:gray;
+}
+/*seatting plan ,supplyregistration,feestatus,feereceipts,assignment,grades,marks,myprofile,placement  table*/
+.sptable{
+	height:40px;
+}
+.sptable tr th{
+   background-color:lightblue;
+}
+.sptable tr th{
+text-align:center;
+ height:40px;
+}
+
+/* timetable, Attendences praticalupload*/
+.titable{
+	height:40px;
+}
+.titable tr th{
+   background-color:lightblue;
+   text-align:center;
+ height:40px;
+}
+.titable tr td{
+	height:40px;
+
+}
+.titable tr td a{
+text-align:center;
+}
